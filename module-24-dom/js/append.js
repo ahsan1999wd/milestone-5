@@ -33,8 +33,12 @@ section.appendChild(ul);
 
 mainContainer.appendChild(section);
 
+/*---------------------------------------------------------*/
 
-// set innerHTML directly
+/**************************
+
+set innerHTML directly   <----------!!!
+
 const sectionDress = document.createElement('section');
 sectionDress.innerHTML = `
 <h1>My Dress section</h1>
@@ -45,3 +49,5 @@ sectionDress.innerHTML = `
 </ul>
 `
 mainContainer.appendChild(sectionDress);
+
+*************************/
